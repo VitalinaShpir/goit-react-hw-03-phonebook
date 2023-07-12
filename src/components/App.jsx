@@ -3,8 +3,6 @@ import { Component } from 'react';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 
-
-
 const CONTACTS_LS_KEY = 'contacts';
 const initialContacts = [
   { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
