@@ -1,0 +1,148 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps slashed-zero;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(44, 44, 44);
+
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.9), rgba(46, 47, 66, 0.9)),
+  url(https://phonoteka.org/uploads/posts/2022-02/thumbs/1645054336_1-phonoteka-org-p-nezhnii-fon-dlya-vizitki-1.jpg);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #70009296;
+  border-radius: 10px;
+  width: 400px;
+  height: 540px;
+  padding: 40px 25px;
+  background: radial-gradient(ellipse at top, #c49ed59b, transparent),
+    radial-gradient(ellipse at bottom, #8555bb9b, transparent);
+  box-shadow: 10px 5px 5px #8555bb9b;
+
+
+}
+
+h1 {
+  margin: 0 auto 30px auto;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(77, 0, 95);
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-shadow: 6px 3px #9c2ebd72;
+
+  /* text-decoration-line: underline overline; */
+
+  -webkit-animation: focus-in-expand-fwd 0.8s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+    transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+    transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+h2{
+  margin: 20px auto 20px auto;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 32px;
+  color: rgb(77, 0, 95);
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-shadow: 6px 3px #ffffffa7;
+}
